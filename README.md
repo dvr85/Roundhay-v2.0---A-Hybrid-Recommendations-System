@@ -41,7 +41,7 @@ In this version, I have implemented an another version of weighted hybrid recomm
 
 Ensemble methods combine multiple models to improve the final output which potentially reduces overfitting and variance. Gradient boosting is a powerful ensemble technique that builds models sequentially, each new model correcting errors made by the previously trained models.
 
-Here, instead of cosine similarity, the gradient boosting (XGBoost) integrates the collabrative filtering and content based filtering scores into a single predictive model to estimate final score for a new user.
+Here, along with cosine similarity, the gradient boosting (XGBoost) integrates the collabrative filtering and content based filtering scores into a single predictive model to estimate final score for a new user.
 
 
 
