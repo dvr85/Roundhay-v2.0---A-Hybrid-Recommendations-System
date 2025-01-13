@@ -29,6 +29,7 @@ Recommender systems can generally be classified into three types:
   - **Tuning**: Requires careful optimization of thresholds or weights to achieve the best performance.
 
 
+
 In the previous version of Roundhay, I have used simple weighted hybrid recommendation system which calculates the total weighted score of content based filtering and collaborative filtering using cosine similarity and one-hot encoding method for text processing for content-based filtering where the categorical data like movie genres would be transformed into a binary outcomes (0/1), representing a unique genre.
 
 
