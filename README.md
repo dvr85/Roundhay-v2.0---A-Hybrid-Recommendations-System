@@ -33,14 +33,9 @@ Recommender systems can generally be classified into three types:
 In the previous version of Roundhay, I have used simple weighted hybrid recommendation system which calculates the total weighted score of content based filtering and collaborative filtering using cosine similarity and one-hot encoding method for text processing for content-based filtering where the categorical data like movie genres would be transformed into a binary outcomes (0/1), representing a unique genre.
 
 
-In this version, we'll explore about learned embeddings and another approach of hybrid systems. 
+In this version, I have implemented an another version of weighted hybrid recommendation system which uses the ensemble learning methods (Gradient Boosting) for score prediction and GloVe embeddings for advanced text processing.
 
 ---
-
-## Weighted Hybrid Recommendation System using Ensemble Learning
-
-In this project, I have implemented an another version of weighted hybrid recommendation system which uses the ensemble learning methods (Gradient Boosting) for score prediction and GloVe embeddings for advanced text processing.
-
 
 ## Ensemble learning with Gradient Boosting and learned embeddings for Hybrid Recommendation Systems
 
@@ -53,7 +48,6 @@ Here, instead of cosine similarity, the gradient boosting (XGBoost) integrates t
 Extracting meaningful features from text using natural language prcessing techniques like GloVe word embeddings. 
 
 For example, in this recommendation system, I have used movie descriptions available in IMDb links to enhance the content-based part of the system by importing using GloVe embeddings manually. This conversion allows the system to quantify the similarity between movies based on their content descriptions.
-
 
 ---
 
