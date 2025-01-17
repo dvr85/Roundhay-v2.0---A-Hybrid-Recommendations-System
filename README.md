@@ -44,7 +44,6 @@ Ensemble methods combine multiple models to improve the final output which poten
 Here, along with cosine similarity, the gradient boosting (XGBoost) integrates the collabrative filtering and content based filtering scores into a single predictive model to estimate final score for a new user.
 
 
-
 Extracting meaningful features from text using natural language prcessing techniques like GloVe word embeddings. 
 
 For example, in this recommendation system, I have used movie descriptions available in IMDb links to enhance the content-based part of the system by importing using GloVe embeddings manually. This conversion allows the system to quantify the similarity between movies based on their content descriptions.
@@ -74,7 +73,7 @@ This model efficiently aggregate the global word-to-word co-occurance to predict
 
 The dataset used in this project is from **MovieLens**, which provides a large set of user ratings and metadata for movies: [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
 
-GloVe embeddings for text processing: [GloVe embeddings] (https://nlp.stanford.edu/projects/glove/)
+GloVe embeddings for text processing: [GloVe embeddings](https://nlp.stanford.edu/projects/glove/)
 
 ---
 
